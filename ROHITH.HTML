@@ -1,0 +1,250 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANNAPAREDDY ROHITH | Personal Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #e0ebf5, #d6e0eb);
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(to right, #2c3e50, #34495e);
+            color: silver;
+            text-align: center;
+            padding: 100px 20px;
+            box-shadow: inset 0 0 50px rgba(0,0,0,0.4);
+        }
+        .header h1 {
+            font-size: 52px;
+            margin: 0;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+        }
+        .header p {
+            font-size: 18px;
+            color: #ddd;
+        }
+
+        /* Section styling */
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .about {
+            background: white;
+            margin: 20px auto;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            max-width: 900px;
+        }
+
+        /* Section Titles */
+        .about h2 {
+            color: #2c3e50;
+            font-size: 28px;
+            border-bottom: 4px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Added shadow */
+        }
+
+        /* Resume Text */
+        .about p {
+            color: #444;
+            font-size: 17px;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .about strong {
+            color: #1a5276;
+        }
+
+        /* Sub-sections */
+        .education, .technical-skills, .strengths, .hobbies, .declaration {
+            text-align: left;
+            margin-top: 30px;
+        }
+        .education h3, .technical-skills h3, .strengths h3, .hobbies h3, .declaration h3 {
+            color: #2c3e50;
+            border-left: 5px solid #ffcc00;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Lists and Items */
+        .education ul, .technical-skills ul, .strengths ul, .hobbies ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .education li, .strengths li, .hobbies li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 12px;
+            border-left: 5px solid #3498db;
+            border-radius: 6px;
+            transition: transform 0.2s;
+        }
+        .education li:hover, .strengths li:hover, .hobbies li:hover {
+            transform: translateX(5px);
+            background: #eef5ff;
+        }
+
+        .technical-skills ul {
+            list-style-type: square;
+            padding-left: 40px;
+        }
+        .technical-skills li {
+            color: #555;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        /* Declaration */
+        .declaration p {
+            font-size: 16px;
+            background: #f7f7f7;
+            padding: 15px;
+            border-left: 5px solid #27ae60;
+            border-radius: 5px;
+            color: #333;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-size: 15px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Header -->
+    <div class="header" id="home">
+        <h1>ANNAPAREDDY ROHITH</h1>
+        <p>Web Developer | MCA Graduate | Passionate Learner</p>
+    </div>
+
+    <!-- Resume Section -->
+    <div class="section about" id="resume">
+        <h2>Resume</h2>
+
+        <p><strong>Profile Summary:</strong><br>
+        Master of Computer Applications (MCA) postgraduate seeking an innovative and challenging career in a growth-oriented organization.
+        I aim to utilize my knowledge and skills effectively, contributing to the success of the organization while progressing in my career.
+        </p>
+
+        <p><strong>Objective:</strong><br>
+        To pursue a challenging career that will discover the potential in me.
+        </p>
+
+        <div class="education">
+            <h3>Education</h3>
+            <ul>
+                <li><strong>MCA</strong> – Pursuing (Vignan University, 2025)<br>
+                    Seeking innovative opportunities to apply my knowledge in software and web development.
+                </li>
+                <li><strong>BCA</strong> – ASN Degree College (2022–2025)<br>
+                    Percentage: <strong>76%</strong>
+                </li>
+                <li><strong>Intermediate</strong> – VIVEKA Junior College (2020–2022)<br>
+                    Percentage: <strong>75%</strong>
+                </li>
+                <li><strong>Secondary School</strong> – MVRS Viveka Foster School (2019–2020)<br>
+                    Successfully completed secondary education.
+                </li>
+            </ul>
+        </div>
+
+        <div class="technical-skills">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>C</li>
+                <li>Python</li>
+                <li>Java (Basics)</li>
+                <li>HTML</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+
+        <div class="strengths">
+            <h3>Strengths & Weakness</h3>
+            <ul>
+                <li><strong>Strengths:</strong> Good in communication, soft skills, adapting new skills.</li>
+                <li><strong>Weakness:</strong> Impatience, but now I'm overcoming it.</li>
+            </ul>
+        </div>
+
+        <div class="hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Exploring the internet</li>
+                <li>Doing physical exercise</li>
+                <li>Playing outdoor games</li>
+            </ul>
+        </div>
+
+        <div class="declaration">
+            <h3>Declaration</h3>
+            <p>I hereby declare that the details furnished above in my resume are correct to the best of my knowledge and belief. I bear the responsibility of any error or mistake in the data if it occurs in the future.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 Annapareddy Rohith | All Rights Reserved</p>
+    </div>
+</body>
+</html>
+
+
+
